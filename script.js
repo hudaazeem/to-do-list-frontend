@@ -2,7 +2,7 @@ const form = document.getElementById("todo-form");
 const input = document.getElementById("todo-input");
 const list = document.getElementById("todo-list");
 
-const BASE_URL = "https://to-do-list-production-b872.up.railway.app";
+const BASE_URL = "http://to-do-list-production-1b65.up.railway.app";
 
 async function fetchTodos() {
     const res = await fetch(`${BASE_URL}/api/todos`);
@@ -85,7 +85,7 @@ form.addEventListener("submit", async (e) => {
     await fetch(`${BASE_URL}/api/todos`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ text }),
+        body: JSON.stringify({ 'test':text, done: true }),
     });
 
     input.value = "";
