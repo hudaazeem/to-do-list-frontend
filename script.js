@@ -2,7 +2,7 @@ const form = document.getElementById("todo-form");
 const input = document.getElementById("todo-input");
 const list = document.getElementById("todo-list");
 
-const BASE_URL = "http://to-do-list-production-1b65.up.railway.app";
+const BASE_URL = "https://to-do-list-production-1b65.up.railway.app";
 
 async function fetchTodos() {
     const res = await fetch(`${BASE_URL}/api/todos`);
