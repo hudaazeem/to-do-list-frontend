@@ -85,7 +85,7 @@ form.addEventListener("submit", async (e) => {
     await fetch(`${BASE_URL}/api/todos`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ 'test':text, done: true }),
+        body: JSON.stringify({ 'text':text, done: true }),
     });
 
     input.value = "";
