@@ -1,0 +1,811 @@
+body.theme-green {
+  padding: 50px;
+  font: 14px;
+  background-image: url('https://res.cloudinary.com/gimmersta-wallpaper/image/upload/c_fill,f_auto,fl_progressive,q_auto,w_1100,h_800/v1724415939/articles/R20824_product.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  cursor: url('/images/green-cursor-1.png') 4 4, auto;
+  min-height: 100vh;
+}
+
+.theme-green h1{
+  font-family: "Delius Swash Caps";
+  text-align: center;
+  margin-top: 0;
+  color: rgb(29, 90, 29);
+  font-size: 40px;
+}
+
+.theme-green h3 {
+  font-family: "Delius";
+  text-align: center;
+  color: #253b2c;
+  font-size: 20px;
+}
+
+.theme-green button {
+  background-color:#639473;
+  color: black;
+  font-size:16px;
+  font-family:"Sour Gummy";
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: url('/images/green-cursor-2.png') 4 4, pointer;
+}
+
+.theme-green button:hover{
+  background-color:#476e53;
+  color: white;
+  cursor: url('/images/green-cursor-2.png') 4 4, pointer;
+}
+
+.theme-green li {
+  font-family: "Hi Melody";
+  font-size: 24px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.theme-green .add-task {
+  display: flex;
+  justify-content: center; 
+}
+
+.theme-green #todo-list {
+  list-style-type: none;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.6); /* White with 60% opacity */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.theme-green #todo-input {
+  font-family: "Hi Melody";
+  font-size: 18px;
+}
+
+.theme-green input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  accent-color: #73c98e;
+  cursor: url('/images/green-cursor-2.png') 4 4, pointer;
+}
+
+.theme-green .pomodoro-timer{
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  width: fit-content;
+  text-align: center;
+  font-family: 'Sour Gummy', cursive;
+  background-color: #639473;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba (0,0,0,0.2);
+}
+
+.theme-green #timer{
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: #112617;
+}
+
+.theme-green .pomodoro-timer button {
+  background-color:#87a891;
+  font-size: 1rem;
+  color: var(--button-text);
+  border: none;
+  padding: 6px 12px;
+  margin-left: 6px;
+  margin-right: 6px;
+  cursor: url('/images/green-cursor-2.png') 4 4, pointer;
+}
+
+.theme-green .pomodoro-timer button:hover {
+  background-color:#112617;
+  color: white;
+  cursor: url('/images/green-cursor-2.png') 4 4, pointer;
+}
+
+.theme-green #pomodoro-counter {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1rem;
+  font-family: "Sour Gummy";
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+
+
+.theme-green h2{
+  color:#112617;
+}
+
+.theme-green .theme-selector-container {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-family: "Sour Gummy";
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 6px 10px;
+  border-radius: 8px;
+  z-index: 1000;
+  cursor: url('/images/green-cursor-2.png') 4 4, auto;
+}
+
+.theme-green #theme-selector-wrapper select {
+  font-family: "Sour Gummy";
+  padding: 4px 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: url('/images/green-cursor-2.png') 4 4, auto;
+}
+
+body.theme-sky {
+  padding: 50px;
+  font: 14px;
+  background-image: url('https://t4.ftcdn.net/jpg/04/89/20/71/360_F_489207118_HDWcKsb17oWJiZG1me09nxdUs4JbTL2t.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  cursor: url('/images/sky-cursor-2.png') 4 4, auto;
+  min-height: 100vh;
+}
+
+.theme-sky h1 {
+  color: #5ab0db;
+  font-family: "Red Hat Text";
+  text-align: center;
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.theme-sky h3 {
+  color: #3a7ca5;
+  font-family: "Alumni Sans Pinstripe";
+  text-align: center;
+  font-size: 28px;
+}
+
+.theme-sky button {
+  background-color: #83d1f7;
+  color: white;
+  font-size:20px;
+  font-family:"Alumni Sans Pinstripe";
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: url('/images/sky-cursor-1.png') 4 4, pointer;
+}
+
+.theme-sky button:hover {
+  background-color: #538299;
+  cursor: url('/images/sky-cursor-1.png') 4 4, pointer;
+}
+
+.theme-sky li{
+  font-family: "Gowun Dodum";
+  font-size: 17px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+.theme-sky input[type="checkbox"] {
+  accent-color: #3a7ca5;
+  width: 20px;
+  height: 20px;
+  cursor: url('/images/sky-cursor-1.png') 4 4, pointer;
+}
+
+.theme-sky .pomodoro-timer {
+  background-color: #b8dff2;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  width: fit-content;
+  text-align: center;
+  font-family: 'Dongle';
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba (0,0,0,0.2);
+  
+}
+
+.theme-sky .pomodoro-timer button {
+  background-color: #59afd4;
+  font-family: "Alumni Sans Pinstripe";
+  color: white;
+  cursor: url('/images/sky-cursor-1.png') 4 4, pointer;
+}
+
+.theme-sky .pomodoro-timer button:hover {
+  background-color: #538299;
+  cursor: url('/images/sky-cursor-1.png') 4 4, pointer;
+}
+
+.theme-sky #pomodoro-counter {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-family: "Dongle";
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.theme-sky h2 {
+  color: #183b4d;
+  font-size: 40px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.theme-sky #timer{
+  font-size: 75px;
+  margin: 1rem 0;
+  color: #183b4d;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.theme-sky .add-task {
+  display: flex;
+
+  justify-content: center; 
+}
+
+.theme-sky #todo-list {
+  list-style-type: none;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.6); /* White with 60% opacity */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.theme-sky #todo-input {
+  font-family: "Gowun Dodum";
+  font-size: 16px;
+}
+
+.theme-sky .theme-selector-container {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-family: "Dongle";
+  font-size: 24px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 6px 10px;
+  border-radius: 8px;
+  z-index: 1000;
+  cursor: url('/images/sky-cursor-1.png') 4 4, auto;
+}
+
+.theme-sky #theme-selector-wrapper select {
+  font-family: "Dongle";
+  padding: 4px 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: url('/images/sky-cursor-1.png') 4 4, auto;
+}
+
+body.theme-pastel {
+  padding: 50px;
+  font: 14px;
+  background-image: url('https://www.shutterstock.com/image-vector/hand-painted-pastel-pink-cotton-600nw-2546959081.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  cursor: url('/images/pastel-cursor-2.png') 4 4, auto;
+  min-height: 100vh;
+}
+
+.theme-pastel h1 {
+  color: #f52cb2;
+  font-family: "Sofia";
+  text-align: center;
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.theme-pastel h3 {
+  color: #bf228b;
+  font-family: "Delicious Handrawn";
+  text-align: center;
+  font-size: 25px;
+}
+
+.theme-pastel button {
+  background-color: #ffaad5;
+  color: white;
+  font-size:16px;
+  font-family:"Delicious Handrawn";
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: url('/images/pastel-cursor-1.png') 4 4, pointer;
+}
+
+.theme-pastel button:hover {
+  background-color: #ff6bb5;
+  cursor: url('/images/pastel-cursor-1.png') 4 4, pointer;
+}
+
+.theme-pastel li{
+  font-family: "Send Flowers";
+  font-size: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+.theme-pastel input[type="checkbox"] {
+  accent-color: #ff6bb5;
+  width: 20px;
+  height: 20px;
+  cursor: url('/images/pastel-cursor-1.png') 4 4, pointer;
+}
+
+.theme-pastel .pomodoro-timer {
+  background-color: #e889d3;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  width: fit-content;
+  text-align: center;
+  font-family: 'Vibur', cursive;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba (0,0,0,0.2);
+  
+}
+
+.theme-pastel .pomodoro-timer button {
+  background-color: #a6338d;
+  color: white;
+  font-family: "Delicious Handrawn";
+  cursor: url('/images/pastel-cursor-1.png') 4 4, pointer;
+}
+
+.theme-pastel .pomodoro-timer button:hover {
+  background-color: #662757;
+  cursor: url('/images/pastel-cursor-1.png') 4 4, pointer;
+}
+
+.theme-pastel #pomodoro-counter {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1rem;
+  font-family: "Vibur";
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.theme-pastel h2 {
+  color: #662757;
+  font-size: 28px;
+}
+
+.theme-pastel #timer{
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: #662757;
+}
+
+.theme-pastel .add-task {
+  display: flex;
+  justify-content: center; 
+}
+
+.theme-pastel #todo-list {
+  list-style-type: none;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.6); /* White with 60% opacity */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.theme-pastel #todo-input {
+  font-family: "Send Flowers";
+  font-size: 20px;
+}
+
+.theme-pastel .theme-selector-container {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-family: "Vibur";
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 6px 10px;
+  border-radius: 8px;
+  z-index: 1000;
+  cursor: url('/images/pastel-cursor-1.png') 4 4, auto;
+}
+
+.theme-pastel #theme-selector-wrapper select {
+  font-family: "Sour Gummy";
+  padding: 4px 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: url('/images/pastel-cursor-1.png') 4 4, auto;
+}
+
+.theme-green p {
+  text-align: center;
+  font-size: 18px;
+  font-family:"Delius Swash Caps";
+  
+}
+
+.theme-sky p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Red Hat Text";
+  
+}
+
+.theme-pastel p {
+  text-align: center;
+  font-size: 18px;
+  font-family:"Sofia" ;
+  color: white;
+  
+}
+
+body.theme-lava {
+  padding: 50px;
+  font: 14px;
+  background-image: url('/images/lava-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  cursor: url('/images/lava-cursor-1.png') 4 4, auto;
+  min-height: 100vh;
+}
+
+.theme-lava h1{
+  font-family: "Bebas Neue";
+  text-align: center;
+  margin-top: 0;
+  color: #e03719;
+  font-size: 52px;
+}
+
+.theme-lava h3 {
+  font-family: "Teko";
+  text-align: center;
+  color: #b02810;
+  font-size: 30px;
+}
+
+.theme-lava button {
+  background-color:#de3412;
+  color: black;
+  font-size:18px;
+  font-family:"Teko";
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: url('/images/lava-cursor-2.png') 4 4, pointer;
+}
+
+.theme-lava button:hover{
+  background-color:#751604;
+  color: white;
+  cursor: url('/images/lava-cursor-2.png') 4 4, pointer;
+}
+
+.theme-lava li {
+  font-family: "Chakra Petch";
+  font-size: 18px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.theme-lava .add-task {
+  display: flex;
+  justify-content: center; 
+}
+
+.theme-lava #todo-list {
+  list-style-type: none;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.6); /* White with 60% opacity */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.theme-lava #todo-input {
+  font-family: "Chakra Petch";
+  font-size: 16px;
+}
+
+.theme-lava input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  accent-color: #d14d32;
+  cursor: url('/images/lava-cursor-2.png') 4 4, pointer;
+}
+
+.theme-lava .pomodoro-timer{
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  width: fit-content;
+  text-align: center;
+  font-family: 'Rajdhani', cursive;
+  background-color: #ed5821;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba (0,0,0,0.2);
+}
+
+.theme-lava #timer{
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: #050930;
+}
+
+.theme-lava .pomodoro-timer button {
+  background-color:#bf2e11;
+  font-size: 18px;
+  color: var(--button-text);
+  border: none;
+  padding: 6px 12px;
+  margin-left: 6px;
+  margin-right: 6px;
+  cursor: url('/images/lava-cursor-2.png') 4 4, pointer;
+}
+
+.theme-lava .pomodoro-timer button:hover {
+  background-color:#751b09;
+  color: white;
+  cursor: url('/images/lava-cursor-2.png') 4 4, pointer;
+}
+
+.theme-lava #pomodoro-counter {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1rem;
+  font-family: "Rajdhani";
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+
+
+.theme-lava h2{
+  color:#050930;
+}
+
+.theme-lava .theme-selector-container {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-family: "Rajdhani";
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 6px 10px;
+  border-radius: 8px;
+  z-index: 1000;
+  cursor: url('/images/lava-cursor-2.png') 4 4, auto;
+}
+
+.theme-lava #theme-selector-wrapper select {
+  font-family: "Rajdhani";
+  padding: 4px 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: url('/images/lava-cursor-2.png') 4 4, auto;
+}
+
+.theme-lava p {
+  text-align: center;
+  font-size: 20px;
+  font-family:"Bebas Neue" ;
+  color: #060e40;
+}
+
+body.theme-sunny {
+  padding: 50px;
+  font: 14px;
+  background-image: url('https://t3.ftcdn.net/jpg/02/78/80/04/360_F_278800443_sZdaH7Aaqp3VR0JUU3uJsNGOw8HDmQ5V.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  cursor: url('/images/sunny-cursor-1.png') 4 4, auto;
+  min-height: 100vh;
+}
+
+.theme-sunny h1{
+  font-family: "Chewy";
+  text-align: center;
+  margin-top: 0;
+  color: #fcd705;
+  font-size: 48px;
+}
+
+.theme-sunny h3 {
+  font-family: "Comfortaa";
+  text-align: center;
+  color: #d6b706;
+  font-size: 20px;
+}
+
+.theme-sunny button {
+  background-color:#fcf792;
+  color: black;
+  font-size:14px;
+  font-family:"Comfortaa";
+  padding: 6px 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: url('/images/sunny-cursor-2.png') 4 4, pointer;
+}
+
+.theme-sunny button:hover{
+  background-color:#e6df60;
+  color: white;
+  cursor: url('/images/sunny-cursor-2.png') 4 4, pointer;
+}
+
+.theme-sunny li {
+  font-family: "Quicksand";
+  font-size: 16px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.theme-sunny .add-task {
+  display: flex;
+  justify-content: center; 
+}
+
+.theme-sunny #todo-list {
+  list-style-type: none;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.6); /* White with 60% opacity */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.theme-sunny #todo-input {
+  font-family: "Quicksand";
+  font-size: 16px;
+}
+
+.theme-sunny input[type="checkbox"]{
+  width: 20px;
+  height: 20px;
+  accent-color: #40e8f7;
+  cursor: url('/images/sunny-cursor-2.png') 4 4, pointer;
+}
+
+.theme-sunny .pomodoro-timer{
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  width: fit-content;
+  text-align: center;
+  font-family: 'Karla', cursive;
+  background-color: #e0d72d;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba (0,0,0,0.2);
+}
+
+.theme-sunny #timer{
+  font-size: 3rem;
+  margin: 1rem 0;
+  color: #1c8a77;
+}
+
+.theme-sunny .pomodoro-timer button {
+  background-color:#1c8a77;
+  font-size: 14px;
+  color: var(--button-text);
+  border: none;
+  padding: 6px 12px;
+  margin-left: 6px;
+  margin-right: 6px;
+  cursor: url('/images/sunny-cursor-2.png') 4 4, pointer;
+}
+
+.theme-sunny .pomodoro-timer button:hover {
+  background-color:#084239;
+  color: white;
+  cursor: url('/images/sunny-cursor-2.png') 4 4, pointer;
+}
+
+.theme-sunny #pomodoro-counter {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1rem;
+  font-family: "Karla";
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+
+
+.theme-sunny h2{
+  color:#1c8a77;
+}
+
+.theme-sunny .theme-selector-container {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-family: "Karla";
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 6px 10px;
+  border-radius: 8px;
+  z-index: 1000;
+  cursor: url('/images/sunny-cursor-2.png') 4 4, auto;
+}
+
+.theme-sunny #theme-selector-wrapper select {
+  font-family: "Karla";
+  padding: 4px 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: url('/images/sunny-cursor-2.png') 4 4, auto;
+}
+
+.theme-sunny p {
+  text-align: center;
+  font-size: 20px;
+  font-family:"Chewy" ;
+  color: #06c5d6;
+
+}
+/*
+fonts
+SKY BLUE:
+h1 and completion: Bebas Neue
+h3 and button: Teko
+list item and input: Chakra Petch
+pomodoro counter, pomodoro timer, theme selector: Rajdhani
+*/
